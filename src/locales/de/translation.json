@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "menu": "Speisekarte",
+    "events": "Veranstaltungen",
+    "chefs": "Köche",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "reserve": "Tisch reservieren"
+  },
+  "hero": {
+    "title": "Genießen Sie gesundes, köstliches Essen",
+    "subtitle": "Wir sind ein Team talentierter Designer, die Websites mit Bootstrap erstellen",
+    "bookTable": "Tisch reservieren",
+    "watchVideo": "Video ansehen"
+  },
+  "about": {
+    "title": "Erfahren Sie Mehr Über Uns",
+    "bookTable": "Tisch reservieren",
+    "paragraph1": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "points": [
+      "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    ],
+    "paragraph2": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  "whyChoose": {
+    "title": "Warum Yummy Wählen",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "button": "Mehr Erfahren",
+    "cards": [
+      { "title": "Corporis voluptates officia", "description": "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip." },
+      { "title": "Ullamco laboris ladore pan", "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt." },
+      { "title": "Labore consequatur incidid", "description": "Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere." }
+    ]
+  },
+  "stats": {
+    "clients": "Kunden",
+    "menus": "Menüs",
+    "chefs": "Köche",
+    "years": "Jahre"
+  },
+  "menu": {
+    "title": "Entdecken Sie Unser Köstliches Menü",
+    "starters": "Vorspeisen",
+    "breakfast": "Frühstück",
+    "lunch": "Mittagessen",
+    "dinner": "Abendessen"
+  },
+  "testimonials": {
+    "title": "Was Sie Über Uns Sagen",
+    "role": "Ladenbesitzer",
+    "prev": "Vorherige Bewertung",
+    "next": "Nächste Bewertung"
+  },
+  "events": {
+    "title": "Veranstaltungen",
+    "private": "Private Feiern",
+    "birthday": "Geburtstage",
+    "wedding": "Hochzeiten",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "chefs": {
+    "title": "Unsere Professionellen Köche"
+  },
+  "booking": {
+    "title": "Buchen Sie Ihren Aufenthalt Bei Uns",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "phone": "Ihr Telefon",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "people": "Anzahl der Personen",
+    "message": "Nachricht",
+    "button": "Tisch reservieren",
+    "submitting": "Wird gesendet...",
+    "success": "Reservierung erfolgreich gesendet! Überprüfen Sie Ihre E-Mail zur Bestätigung.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "errors": {
+      "nameRequired": "Name ist erforderlich",
+      "emailInvalid": "Ungültige E-Mail",
+      "dateRequired": "Datum ist erforderlich",
+      "datePast": "Das Datum darf nicht in der Vergangenheit liegen",
+      "timeRequired": "Uhrzeit ist erforderlich",
+      "peopleMin": "Mindestens 1 Person"
+    }
+  },
+  "gallery": {
+    "title": "Entdecken Sie Unsere Galerie"
+  },
+  "footer": {
+    "address": "Adresse",
+    "contact": "Kontakt",
+    "quickLinks": "Schnelllinks",
+    "openingHours": "Öffnungszeiten",
+    "followUs": "Folgen Sie Uns",
+    "hours": "Mo-Sa: 11:00 - 23:00",
+    "copyright": "© Copyright Yummy. Alle Rechte Vorbehalten",
+    "links": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "menu": "Speisekarte",
+      "events": "Veranstaltungen",
+      "chefs": "Köche",
+      "gallery": "Galerie",
+      "contact": "Kontakt"
+    }
+  }
+}

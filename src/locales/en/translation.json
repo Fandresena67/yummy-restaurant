@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "events": "Events",
+    "chefs": "Chefs",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "reserve": "Reserve a Table"
+  },
+  "hero": {
+    "title": "Enjoy Your Healthy Delicious Food",
+    "subtitle": "We are team of talented designers making websites with Bootstrap",
+    "bookTable": "Book a Table",
+    "watchVideo": "Watch Video"
+  },
+  "about": {
+    "title": "Learn More About Us",
+    "bookTable": "Book a Table",
+    "paragraph1": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "points": [
+      "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    ],
+    "paragraph2": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  "whyChoose": {
+    "title": "Why Choose Yummy",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "button": "Learn More",
+    "cards": [
+      { "title": "Corporis voluptates officia", "description": "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip." },
+      { "title": "Ullamco laboris ladore pan", "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt." },
+      { "title": "Labore consequatur incidid", "description": "Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere." }
+    ]
+  },
+  "stats": {
+    "clients": "Clients",
+    "menus": "Menus",
+    "chefs": "Chefs",
+    "years": "Years"
+  },
+  "menu": {
+    "title": "Check Our Yummy Menu",
+    "starters": "Starters",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner"
+  },
+  "testimonials": {
+    "title": "What Are They Saying About Us",
+    "role": "Store Owner",
+    "prev": "Previous testimonial",
+    "next": "Next testimonial"
+  },
+  "events": {
+    "title": "Events",
+    "private": "Private Parties",
+    "birthday": "Birthday Parties",
+    "wedding": "Wedding Parties",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  "chefs": {
+    "title": "Our Professional Chefs"
+  },
+  "booking": {
+    "title": "Book Your Stay With Us",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Your Phone",
+    "date": "Date",
+    "time": "Time",
+    "people": "# of people",
+    "message": "Message",
+    "button": "Book a Table",
+    "submitting": "Sending...",
+    "success": "Reservation sent successfully! Check your email for confirmation.",
+    "error": "An error occurred. Please try again.",
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailInvalid": "Invalid email",
+      "dateRequired": "Date is required",
+      "datePast": "Date cannot be in the past",
+      "timeRequired": "Time is required",
+      "peopleMin": "At least 1 person"
+    }
+  },
+  "gallery": {
+    "title": "Check Our Gallery"
+  },
+  "footer": {
+    "address": "Address",
+    "contact": "Contact",
+    "quickLinks": "Quick Links",
+    "openingHours": "Opening Hours",
+    "followUs": "Follow Us",
+    "hours": "Mon-Sat: 11AM - 23PM",
+    "copyright": "© Copyright Yummy. All Rights Reserved",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "menu": "Menu",
+      "events": "Events",
+      "chefs": "Chefs",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    }
+  }
+}

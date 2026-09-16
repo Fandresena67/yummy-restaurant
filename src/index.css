@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Dark Mode Tailwind v4 : stratégie par classe (pas de
+   tailwind.config.js en v4). Sans cette ligne, `dark:` suivrait
+   prefers-color-scheme ; avec elle, `dark:` suit la classe
+   `.dark` posée sur <html> par le hook useTheme.
+   ============================================================ */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   Base Yummy + garde-fous responsive (audit Phase 9)
+   - Tout est dans `@layer base` : les utilitaires Tailwind
+     (couche `utilities`, prioritaire) comme h-96 / h-48 / w-56
+     continuent de s'appliquer normalement.
+   - scroll fluide pour les ancres Navbar
+   - box-sizing global : padding/border inclus dans les largeurs
+   - overflow-x hidden sur html/body : aucun scroll horizontal,
+     quelle que soit la largeur (320px -> 1440px+)
+   - garde-fou images : max-width 100% par défaut
+   - thème sombre : fond/texte du body + color-scheme (scrollbars,
+     contrôles natifs comme le calendrier du formulaire)
+   ============================================================ */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    /* PAS de scroll-behavior: smooth ici : le défilement est piloté en JS
+       (src/utils/smoothScroll.js, 1500ms + easing). Le CSS entrerait en
+       conflit (double animation / saut instantané). */
+    /* Marge de sécurité pour les ancres natives résiduelles */
+    scroll-padding-top: 80px;
+    color-scheme: light;
+  }
+
+  /* Thème sombre actif : <html class="dark"> (posé par useTheme) */
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background-color: #fff;
+    color: #212529;
+    transition:
+      background-color 0.3s,
+      color 0.3s;
+  }
+
+  /* Fond/texte du body en mode sombre (sous les sections) */
+  .dark body {
+    background-color: #111827; /* gray-900 */
+    color: #f9fafb; /* gray-50 */
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
